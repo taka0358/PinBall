@@ -12,12 +12,9 @@ GameObject:
   - component: {fileID: 9041572345209795781}
   - component: {fileID: 9041572345209795780}
   - component: {fileID: 9041572345209795779}
-  - component: {fileID: 4764127523242271149}
-  - component: {fileID: -6433455687784992632}
-  - component: {fileID: -277732811428140819}
   m_Layer: 0
-  m_Name: SmallStarPrefab
-  m_TagString: SmallStarTag
+  m_Name: SmallSter
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -99,39 +96,3 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &4764127523242271149
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9041572345209795778}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ad40c514f82d13478f65c63f15c5254, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &-6433455687784992632
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9041572345209795778}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9a72673b6c82d2428f9cdeb90c7d542, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &-277732811428140819
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9041572345209795778}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9a72673b6c82d2428f9cdeb90c7d542, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
