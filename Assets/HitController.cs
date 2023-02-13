@@ -11,6 +11,7 @@ public class HitController : MonoBehaviour
     private int score = 0;
 
 
+
     // “–‚½‚Á‚½‚ÉŒÄ‚Î‚ê‚éŠÖ”
     void OnCollisionEnter(Collision collision)
     {
