@@ -26,9 +26,9 @@ public class Score : MonoBehaviour
 
         {
             //HitText‚É“¾“_‚ð•\Ž¦
-            GetComponent<Text>().text = (GetComponent<Score>().score)+"point";
-            
-            }
+            GetComponent<Text>().text = (GetComponent<Score>().score) + "point";
+
+        }
     }
 
 }
