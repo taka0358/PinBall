@@ -7,17 +7,13 @@ using UnityEngine.UI;
 public class HitController : MonoBehaviour
 {
 
-    //変数の宣言
-    private int score = 0;
-
-
+    
 
     // 当たった時に呼ばれる関数
     void OnCollisionEnter(Collision collision)
     {
         Debug.Log("HitText");
-
-        //シーン中のTextオブジェクトを取得
+　　　　//シーン中のTextオブジェクトを取得
         this.HitText = GameObject.Find("HitText");
 
         // タグによって得点を変える
@@ -25,7 +21,7 @@ public class HitController : MonoBehaviour
         {
             //Textに得点10を加算表示 
             this.HitText.GetComponent<Score>().score += 10;
-
+            Debug.Log(this.HitText.GetComponent<Score>().score);
 
 
         }
@@ -33,7 +29,7 @@ public class HitController : MonoBehaviour
         {
             //Textに得点20を加算表示
             this.HitText.GetComponent<Score>().score += 20;
-
+            Debug.Log(this.HitText.GetComponent<Score>().score);
 
 
 
@@ -42,7 +38,7 @@ public class HitController : MonoBehaviour
         {
             //Textに得点30を加算
             this.HitText.GetComponent<Score>().score += 30;
-
+            Debug.Log(this.HitText.GetComponent<Score>().score);
 
 
         }
@@ -56,7 +52,7 @@ public class HitController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        score = 0;
+       
     }
 
 
